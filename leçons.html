@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayden - Liste</title>
+</head>
+<style>
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li a {
+    color: black;
+    letter-spacing: 0.1rem;
+}
+
+ul li a:hover {
+    color:brown;
+    text-decoration: underline;
+}
+
+.menu li {
+    float: right;
+    padding: 40px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    top: -30px;
+}
+
+.header {
+    background-color: white;
+    height: 80px;
+    margin: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    border-style: solid;
+    border-color: green;
+    border-radius: 7px;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-size: 45;
+    color: white;
+}
+
+.Listee {
+    color: white;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+</style>
+<body>
+    <div class="header">
+        <nav>
+            <ul class="menu">
+                <li><a href="/index.html">Accueil</a></li>
+                <li><a href="/leçons.html">Liste</a></li>
+                <li><a href="/Jeux.html">Jeux</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h1>Ayden - Liste</h1>
+    <p>Voici ma liste de compétence, a chaque compétence aquis je coche la croix:une fois toute les croix coché je suis prêt pour le prochain contrôle !</p>
+    <div class="Listee">
+        <li><input type="checkbox" id="A"><label for="A">Table de 1 a 9</label></input></li>
+        <li><input type="checkbox" id="B"><label for="B">Addition</label></input></li>
+        <li><input type="checkbox" id="C"><label for="C">Soustraction</label></input></li>
+        <li><input type="checkbox" id="D"><label for="D">Multiplication</label></input></li>
+        <li><input type="checkbox" id="E"><label for="E">Cercle</label></input></li>
+    </div>
+</body>
+</html>

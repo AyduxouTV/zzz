@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayden-Jeux</title>
+</head>
+<style>
+ body {
+    background-color: burlywood;
+ } 
+ 
+ h1 {
+    font-family: sans-serif;
+    font-size: 55px;
+ }
+
+ p {
+    font-family: sans-serif;
+ }
+
+ nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li a {
+    color: white;
+    letter-spacing: 0.1rem;
+}
+
+ul li a:hover {
+    color:brown;
+    text-decoration: underline;
+}
+
+.menu li {
+    float: right;
+    padding: 40px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    top: -30px;
+}
+
+.header {
+    background-color: black;
+    height: 80px;
+    margin: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.tables {
+    font-size: 50px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.tables:hover {
+    color: red;
+}
+</style>
+<body>
+    <div class="header">
+        <nav>
+            <ul class="menu">
+                <li><a href="/index.html">Accueil</a></li>
+                <li><a href="/leçons.html">Liste</a></li>
+                <li><a href="/Jeux.html">Jeux</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h1>Ayden - Jeux</h1>
+    <p>(Jeu venant de <a href="https://calculatice.ac-lille.fr/">calcul@tice)</a></p>
+    <div class="jeu">
+        <iframe src="https://calculatice.ac-lille.fr/bibliotheque/enthdf/display.php?nom=tableattaque&options=%7B%22nom%22%3A%22table-attaque-as3%22%2C%22totalEssai%22%3A1%2C%22plageA%22%3A%222-9%22%2C%22totalQuestion%22%3A1%2C%22plageB%22%3A%222-9%22%2C%22tentative%22%3A%2220%22%2C%22operateur%22%3A%5B10%5D%2C%22temps_question%22%3A0%2C%22defilement%22%3A6%7D" width="735" height="650"></iframe>
+        <iframe src="https://calculatice.ac-lille.fr/bibliotheque/enthdf/display.php?nom=skimaths_c3&options=%7B%22totalQuestion%22%3A1%2C%22totalTentative%22%3A40%2C%22totalEssai%22%3A1%2C%22tempsExo%22%3A0%2C%22tempsQuestion%22%3A0%2C%22tables%22%3A%222%3B3%3B4%3B5%3B6%3B7%3B8%3B9%22%2C%22tps%22%3A6%2C%22acc%22%3A15%2C%22min%22%3A3%7D" width="735" height="650"></iframe>
+        <iframe src="https://calculatice.ac-lille.fr/bibliotheque/enthdf/display.php?nom=tapis&options=%7B%22totalQuestion%22%3A1%2C%22totalTentative%22%3A25%2C%22totalEssai%22%3A1%2C%22tempsExo%22%3A0%2C%22tempsQuestion%22%3A0%2C%22propositions%22%3A4%2C%22vitesse_init%22%3A1%2C%22acceleration%22%3A0.1%2C%22encadrement%22%3A%221%3B80%22%2C%22sans_parenthese%22%3A%22jamais%22%2C%22nombres%22%3A%223%20ou%204%22%7D" width="735" height="650"></iframe>
+        <iframe src="https://calculatice.ac-lille.fr/bibliotheque/enthdf/display.php?nom=contact2&options=%7B%22totalQuestion%22%3A6%2C%22totalTentative%22%3A1%2C%22totalEssai%22%3A1%2C%22tempsExo%22%3A60%2C%22tempsQuestion%22%3A70%2C%22nbr_contact%22%3A%224%22%2C%22nbr_carre_max%22%3A7%2C%22valeur%22%3A%222%3B3%3B4%3B5%3B6%3B7%3B8%3B9%22%2C%22pourcentage_facteurs%22%3A100%2C%22pourcentage_produits%22%3A0%7D" width="735" height="650"></iframe>
+        <iframe src="https://calculatice.ac-lille.fr/bibliotheque/enthdf/display.php?nom=foot_c3&options=%7B%22totalQuestion%22%3A1%2C%22totalTentative%22%3A30%2C%22totalEssai%22%3A1%2C%22tempsExo%22%3A0%2C%22tempsQuestion%22%3A0%2C%22etape%22%3A5%2C%22temps%22%3A5%2C%22calculs%22%3A30%2C%22propositions%22%3A5%2C%22ponderation0%22%3A1%2C%22ponderation1%22%3A1%2C%22ponderation2%22%3A1%2C%22ponderation3%22%3A1%2C%22ponderation4%22%3A1%7D" width="735" height="650"></iframe>
+        <iframe src="https://calculatice.ac-lille.fr/bibliotheque/enthdf/display.php?nom=calculakartC3_4&options=%7B%22totalQuestion%22%3A1%2C%22totalTentative%22%3A40%2C%22totalEssai%22%3A1%2C%22tempsExo%22%3A0%2C%22tempsQuestion%22%3A180%2C%22acceleration%22%3A0.6%2C%22vitesse%22%3A6%2C%22propositions%22%3A3%2C%22ponderation1%22%3A2%2C%22ponderation2%22%3A2%2C%22ponderation3%22%3A1%2C%22ponderation4%22%3A1%7D" width="735" height="650"></iframe>
+    </div>
+    <div>
+        <a class="tables" href="/tables.html">Afficher Les Tables de 1 à 10</a>
+    </div>    
+</body>
+</html>
